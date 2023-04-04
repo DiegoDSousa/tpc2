@@ -1,0 +1,52 @@
+
+.component-controls-1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+.new-component__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+.new-component__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }
+  .new-disciplina__actions {
+    text-align: right;
+  }
+  .buttons-controls{
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  .new-component {
+    background-color: #6c92aa53;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+  .new-component__actions {
+    text-align: right;
+
+  }
+  .new-component__actions button {
+    background-color: #1e608953;
+    border-radius: 10px;
+    
+    width: 100px;
+    height: 25px;
+    border: none;
+  }
+  
